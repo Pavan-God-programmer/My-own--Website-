@@ -19,8 +19,9 @@ body {
 
 .h2 {
   font-family: papyrus;
-  font-size: large;
+  font-size: x-large;
   font-weight: bolder;
+  color: rgb(255, 59, 59);
 }
 
 h1 {
@@ -28,8 +29,16 @@ h1 {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: bolder;
   font-variant: small-caps;
-  padding-top: 90px;
   font-size: xxx-large;
+}
+
+h2 {
+  font-weight: bolder;
+  font-variant: small-caps;
+  padding-top: 70px;
+  font-size: xx-large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -49,4 +58,8 @@ a:hover {
   text-decoration: rgb(0, 0, 0) underline;
   text-transform: var(90px);
   cursor: pointer;
+}
+
+.line {
+  text-decoration: underline rgb(252, 27, 27);
 }

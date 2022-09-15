@@ -36,3 +36,7 @@ a {
   text-decoration: none;
   font-weight: 500;
 }
+
+.under {
+  text-decoration: underline red;
+}
