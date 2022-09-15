@@ -2,3 +2,37 @@ html {
   background: url(img/KID\ TITAN.jpg) no-repeat center fixed;
   background-size: cover;
 }
+
+body {
+  background-color: rgba(225, 225, 225, 0.8);
+  width: 600px;
+  margin: 25px auto;
+  text-align: center;
+  padding: 100px 50px 200px;
+  border-radius: 50px;
+}
+
+a {
+  font-weight: bolder;
+  padding: 70px 10px 90px;
+  font-variant: small-caps;
+  color: rgb(0, 0, 0);
+  font-size: large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+a:hover {
+  text-transform: uppercase;
+  color: rgb(217, 77, 0);
+  text-decoration: rgb(0, 0, 0) underline;
+  text-transform: var(90px);
+  cursor: pointer;
+  text-underline-position: above;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
