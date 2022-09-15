@@ -40,3 +40,11 @@ a {
 .under {
   text-decoration: underline red;
 }
+
+img {
+  border-radius: 20px;
+}
+
+.pad {
+  padding-bottom: 50px;
+}
