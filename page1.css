@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-color: rgb(145 185 236 / 66%);
+  background-color: rgb(145 185 236 / 0.5);
   width: 600px;
   margin: 25px auto;
   text-align: center;
@@ -18,10 +18,6 @@ h1,h2 {
 
 h1{
   padding-top: 50px;
-}
-
-hr {
-color: #00b6f8;
 }
 
 p {
@@ -82,6 +78,11 @@ img {
 }
 
 .yes {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.yea {
   padding-top: 60px;
   padding-bottom: 20px;
 }

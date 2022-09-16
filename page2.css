@@ -4,12 +4,37 @@ html {
 }
 
 body {
-  background-color: rgba(225, 225, 225, 0.8);
+  background-color: rgba(225, 225, 225, 0.5);
   width: 600px;
   margin: 25px auto;
   text-align: center;
   padding: 100px 50px 200px;
   border-radius: 50px;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.input {
+  text-align: left;
+  padding-top: 20px;  
+  padding-bottom: 20px;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+
+.ayo {
+  width: 75px;
+  border-radius: 5px;
+  background-color: rgba(225, 225, 225, 0.5);
+  border-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a {
