@@ -4,12 +4,29 @@ html {
 }
 
 body {
-  background-color: rgba(225, 225, 225, 0.8);
+  background-color: rgb(145 185 236 / 66%);
   width: 600px;
   margin: 25px auto;
   text-align: center;
   padding: 100px 50px 200px;
   border-radius: 50px;
+}
+
+h1,h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+  padding-top: 50px;
+}
+
+hr {
+color: #00b6f8;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
 }
 
 a {
@@ -26,7 +43,7 @@ a {
 a:hover {
   text-transform: uppercase;
   color: rgb(217, 77, 0);
-  text-decoration: rgb(0, 0, 0) underline;
+  text-decoration: rgb(255, 255, 255) underline;
   text-transform: var(90px);
   cursor: pointer;
   text-underline-position: above;
@@ -48,3 +65,24 @@ img {
 .pad {
   padding-bottom: 50px;
 }
+
+.sco:hover {
+  color: rgb(255, 85, 0);
+  text-decoration: rgb(255, 255, 255) underline;
+}
+
+.vist {
+  font-size: large;
+  text-size-adjust: 50px;
+}
+
+.head2 {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.yes {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+

@@ -26,7 +26,7 @@ a {
 a:hover {
   text-transform: uppercase;
   color: rgb(217, 77, 0);
-  text-decoration: rgb(0, 0, 0) underline;
+  text-decoration: rgb(255, 255, 255) underline;
   text-transform: var(90px);
   cursor: pointer;
 }
@@ -36,6 +36,6 @@ a {
   font-weight: 500;
 }
 
-.line {
+.gotit {
   text-decoration: underline red;
 }

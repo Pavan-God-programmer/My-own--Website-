@@ -9,7 +9,7 @@ a {
 }
 
 body {
-  background-color: rgba(225, 225, 225, 0.8);
+  background-color: rgba(225, 225, 225, 0.6);
   width: 600px;
   margin: 25px auto;
   text-align: center;
@@ -21,7 +21,7 @@ body {
   font-family: papyrus;
   font-size: x-large;
   font-weight: bolder;
-  color: rgb(255, 59, 59);
+  color: rgb(0, 0, 0);
 }
 
 h1 {
@@ -55,7 +55,7 @@ a {
 a:hover {
   text-transform: uppercase;
   color: rgb(217, 77, 0);
-  text-decoration: rgb(0, 0, 0) underline;
+  text-decoration: rgb(255, 255, 255) underline;
   text-transform: var(90px);
   cursor: pointer;
 }
