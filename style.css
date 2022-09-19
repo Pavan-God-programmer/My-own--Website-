@@ -8,6 +8,10 @@ a {
   font-weight: 500;
 }
 
+hr {
+  border-color: black;
+}
+
 body {
   background-color: rgba(225, 225, 225, 0.6);
   width: 600px;

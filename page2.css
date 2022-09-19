@@ -4,12 +4,34 @@ html {
 }
 
 body {
-  background-color: rgba(225, 225, 225, 0.8);
+  background-color: rgba(225, 225, 225, 0.5);
   width: 600px;
   margin: 25px auto;
   text-align: center;
   padding: 100px 50px 200px;
   border-radius: 50px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /* Base Font*/
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+}
+
+.input {
+  text-align: left;
+  padding-top: 50px;
+}
+
+.narrow-input {
+  width: 70px;
+  border-radius: 5px;
+  background-color: rgba(225, 225, 225, 0.5);
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 30px;
 }
 
 a {
@@ -38,4 +60,8 @@ a {
 
 .gotit {
   text-decoration: underline red;
+}
+
+h1 {
+  padding-top: 40px;
 }

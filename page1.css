@@ -12,16 +12,13 @@ body {
   border-radius: 50px;
 }
 
-h1,h2 {
+h1,
+h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1{
+h1 {
   padding-top: 50px;
-}
-
-hr {
-color: #00b6f8;
 }
 
 p {
@@ -85,4 +82,3 @@ img {
   padding-top: 60px;
   padding-bottom: 20px;
 }
-
