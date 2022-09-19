@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-color: rgb(145 185 236 / 66%);
+  background-color: rgb(145 185 236 / 0.6);
   width: 600px;
   margin: 25px auto;
   text-align: center;
@@ -60,7 +60,7 @@ img {
 }
 
 .pad {
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 .sco:hover {
@@ -79,6 +79,11 @@ img {
 }
 
 .yes {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.yea {
   padding-top: 60px;
   padding-bottom: 20px;
 }
