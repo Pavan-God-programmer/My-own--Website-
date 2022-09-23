@@ -87,6 +87,10 @@ a {
   text-decoration: underline red;
 }
 
+.bold {
+  font: bold;
+}
+
 .butt {
   text-align: left;
   padding-top: 20px;
