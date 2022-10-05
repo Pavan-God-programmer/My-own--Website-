@@ -4,12 +4,17 @@
 document.getElementById("btn").addEventListener("click", btnClicked);
 
 function btnClicked() {
-  const q1value = document.getElementById("q1input").value.toLowerCase();
+  let q1value = document.getElementById("q1input").value.toLowerCase();
   console.log(q1value);
 
-  if (q1value === "phone") {
-    document.getElementById("q1output").innerHTML = "Right";
+  if (
+    q1value === "phone" ||
+    q1value === "pc" ||
+    q1value === "windows" ||
+    q1value === "imac"
+  ) {
+    document.getElementById("q1output").innerHTML = "Right✅";
   } else {
-    document.getElementById("q1output").innerHTML = "Wrong";
+    document.getElementById("q1output").innerHTML = "🤣Your Wrong dumbass";
   }
 }
