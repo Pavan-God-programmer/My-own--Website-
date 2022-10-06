@@ -15,6 +15,6 @@ function btnClicked() {
   ) {
     document.getElementById("q1output").innerHTML = "Right✅";
   } else {
-    document.getElementById("q1output").innerHTML = "🤣Your Wrong dumbass";
+    document.getElementById("q1output").innerHTML = "🤣Your Wrong";
   }
 }
