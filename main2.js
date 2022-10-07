@@ -31,7 +31,6 @@ function btnClicked() {
   } else if (q5value === "hawk") {
     document.getElementById("q5output").innerHTML = "Right✅";
   } else {
-    document.getElementById("q1output" && "q2output" && "q3output").innerHTML =
-      "🤣Your Wrong";
+    document.getElementById("q1output").innerHTML = "🤣Your Wrong";
   }
 }
