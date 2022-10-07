@@ -26,11 +26,12 @@ function btnClicked() {
     document.getElementById("q2output").innerHTML = "Right✅";
   } else if (q3value === "yes") {
     document.getElementById("q3output").innerHTML = "Right✅";
-  } else if (q4value === "yes") {
+  } else if (q4value === "scorpion") {
     document.getElementById("q4output").innerHTML = "Right✅";
-  } else if (q5value === "yes") {
+  } else if (q5value === "hawk") {
     document.getElementById("q5output").innerHTML = "Right✅";
   } else {
-    document.getElementById("q1output").innerHTML = "🤣Your Wrong";
+    document.getElementById("q1output" && "q2output" && "q3output").innerHTML =
+      "🤣Your Wrong";
   }
 }
