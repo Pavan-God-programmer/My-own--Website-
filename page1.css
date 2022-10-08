@@ -87,3 +87,24 @@ img {
   padding-top: 60px;
   padding-bottom: 20px;
 }
+
+.up {
+  font-size: xx-large;
+  background-color: transparent;
+  border-radius: 100px;
+  font-weight: bolder;
+  text-align: right;
+}
+
+.up:hover {
+  font-size: xx-large;
+  background-color: transparent;
+  border-radius: 100px;
+  font-weight: bolder;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: rgb(217, 77, 0);
+  text-decoration: rgb(255, 255, 255) underline;
+  text-transform: var(90px);
+  cursor: pointer;
+}
