@@ -21,18 +21,32 @@ function btnClicked() {
     q1value === "windows" ||
     q1value === "imac"
   ) {
-    document.getElementById("q1output").innerHTML = "Right✅";
-  } else if (q2value === "71") {
-    document.getElementById("q2output").innerHTML = "Right✅";
-  } else if (q3value === "yes" || "yea") {
-    document.getElementById("q3output").innerHTML = "Right✅";
-  } else if (q4value === "scorpion") {
-    document.getElementById("q4output").innerHTML = "Right✅";
-  } else if (q5value === "hawk") {
-    document.getElementById("q5output").innerHTML = "Right✅";
+    document.getElementById("q1anws").innerHTML = "Right✅";
   } else {
-    document.getElementById(
-      "q1output" || "q2output" || "q3output" || "q4output" || "q5output"
-    ).innerHTML = "🤣Your Wrong";
+    document.getElementById("q1anws").innerHTML = "🤣Your Wrong";
+  }
+
+  if (q2value === "71") {
+    document.getElementById("q2anws").innerHTML = "Right✅";
+  } else {
+    document.getElementById("q2anws").innerHTML = "🤣Your Wrong";
+  }
+
+  if (q3value === "yes" || "yea") {
+    document.getElementById("q3anws").innerHTML = "Right✅";
+  } else {
+    document.getElementById("q3anws").innerHTML = "🤣Your Wrong";
+  }
+
+  if (q4value === "scorpion") {
+    document.getElementById("q4anws").innerHTML = "Right✅";
+  } else {
+    document.getElementById("q4anws").innerHTML = "🤣Your Wrong";
+  }
+
+  if (q5value === "hawk") {
+    document.getElementById("q5anws").innerHTML = "Right✅";
+  } else {
+    document.getElementById("q5anws").innerHTML = "🤣Your Wrong";
   }
 }
