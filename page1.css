@@ -90,10 +90,11 @@ img {
 
 .up {
   font-size: xx-large;
-  background-color: transparent;
+  background-color: black;
   border-radius: 100px;
   font-weight: bolder;
   text-align: right;
+  padding-left: 25px;
 }
 
 .up:hover {

@@ -1,11 +1,8 @@
 // IPO Algorithm (Input-Process-Output)
 
 //Input
-
-const elem = document.getElementById("id");
-elem.addEventListener("click", sayHello);
-
-function sayHello() {
+document.addEventListener("click", sayStuff);
+function sayStuff() {
   let username = prompt("What is your name ");
   let like = prompt("Do you like Video Games?");
   let divice = prompt("In what divice you would like to play?");
@@ -20,9 +17,9 @@ function sayHello() {
 
   //Output
 
+  alert(msg);
   alert(Like);
   alert(meg);
-  alert(msg);
   alert(present);
   alert(mg);
 }

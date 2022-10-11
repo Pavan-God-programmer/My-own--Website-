@@ -23,30 +23,30 @@ function btnClicked() {
   ) {
     document.getElementById("q1anws").innerHTML = "Right✅";
   } else {
-    document.getElementById("q1anws").innerHTML = "🤣Your Wrong";
+    document.getElementById("q1anws").innerHTML = "🤣Your Wrong❌";
   }
 
   if (q2value === "71") {
     document.getElementById("q2anws").innerHTML = "Right✅";
   } else {
-    document.getElementById("q2anws").innerHTML = "🤣Your Wrong";
+    document.getElementById("q2anws").innerHTML = "🤣Your Wrong❌";
   }
 
-  if (q3value === "yes" || "yea") {
+  if (q3value === "yes") {
     document.getElementById("q3anws").innerHTML = "Right✅";
   } else {
-    document.getElementById("q3anws").innerHTML = "🤣Your Wrong";
+    document.getElementById("q3anws").innerHTML = "🤣Your Wrong❌";
   }
 
   if (q4value === "scorpion") {
     document.getElementById("q4anws").innerHTML = "Right✅";
   } else {
-    document.getElementById("q4anws").innerHTML = "🤣Your Wrong";
+    document.getElementById("q4anws").innerHTML = "🤣Your Wrong❌";
   }
 
   if (q5value === "hawk") {
     document.getElementById("q5anws").innerHTML = "Right✅";
   } else {
-    document.getElementById("q5anws").innerHTML = "🤣Your Wrong";
+    document.getElementById("q5anws").innerHTML = "🤣Your Wrong❌";
   }
 }
