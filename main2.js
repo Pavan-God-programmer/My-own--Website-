@@ -2,8 +2,13 @@
 
 //Event Listerner on the button
 document.getElementById("btn").addEventListener("click", btnClicked);
+let score = document.getElementById("score")
+let percentage = document.getElementById("percentage")
 
 function btnClicked() {
+  score.innerHTML = "0/5"
+  percentage.innerHTML = "%----%"
+  let Cq = 0
   let q1value = document.getElementById("q1input").value.toLowerCase();
   console.log(q1value);
   let q2value = document.getElementById("q2input").value.toLowerCase();
@@ -22,31 +27,45 @@ function btnClicked() {
     q1value === "imac"
   ) {
     document.getElementById("q1anws").innerHTML = "Right✅";
+    Cq += 1
   } else {
     document.getElementById("q1anws").innerHTML = "🤣Your Wrong❌";
   }
 
   if (q2value === "71") {
     document.getElementById("q2anws").innerHTML = "Right✅";
+    Cq += 1
+
   } else {
     document.getElementById("q2anws").innerHTML = "🤣Your Wrong❌";
   }
 
   if (q3value === "yes") {
     document.getElementById("q3anws").innerHTML = "Right✅";
+    Cq += 1
+
   } else {
     document.getElementById("q3anws").innerHTML = "🤣Your Wrong❌";
   }
 
   if (q4value === "scorpion") {
     document.getElementById("q4anws").innerHTML = "Right✅";
+    Cq += 1
+
   } else {
     document.getElementById("q4anws").innerHTML = "🤣Your Wrong❌";
   }
 
   if (q5value === "hawk") {
     document.getElementById("q5anws").innerHTML = "Right✅";
+    Cq += 1
+
   } else {
     document.getElementById("q5anws").innerHTML = "🤣Your Wrong❌";
   }
+
+  score.innerHTML = `${Cq}/5`
+  percentage.innerHTML = `%${Cq/5 * 100}%`
+
 }
+
